@@ -1,0 +1,163 @@
+                                                                 PAGE NO.    1
+
+
+
+             ****************************************************        
+             *                                                  *        
+             *           STAAD.Pro CONNECT Edition              *        
+             *           Version  22.00.00.15                   *        
+             *           Proprietary Program of                 *        
+             *           Bentley Systems, Inc.                  *        
+             *           Date=    MAR  7, 2021                  *        
+             *           Time=    16:48:47                      *        
+             *                                                  *        
+             *  Licensed to: only @ ::LAVTeam:: (R)             *        
+             ****************************************************        
+
+
+
+     1. STAAD SPACE
+INPUT FILE: E:\extra\Staad Pro\project 1.STD
+     2. START JOB INFORMATION
+     3. JOB NAME CIVIL ENGINEERING
+     4. JOB CLIENT ANJANA MAM
+     5. JOB NO 1
+     6. ENGINEER DATE 05-MAR-21
+     7. ENGINEER NAME OJASWI SINGH
+     8. CHECKER NAME COMPUTER APPLICATION LAB DEPARTMENT
+     9. END JOB INFORMATION
+    10. INPUT WIDTH 79
+    11. UNIT METER KN
+    12. JOINT COORDINATES
+    13. 1 0 0 0; 2 5 0 0
+    14. MEMBER INCIDENCES
+    15. 1 1 2
+    16. DEFINE MATERIAL START
+    17. ISOTROPIC CONCRETE
+    18. E 2.17185E+07
+    19. POISSON 0.17
+    20. DENSITY 23.5616
+    21. ALPHA 1E-05
+    22. DAMP 0.05
+    23. TYPE CONCRETE
+    24. STRENGTH FCU 27579
+    25. END DEFINE MATERIAL
+    26. MEMBER PROPERTY AMERICAN
+    27. 1 PRIS YD 0.3 ZD 0.26
+    28. CONSTANTS
+    29. MATERIAL CONCRETE ALL
+    30. SUPPORTS
+    31. 1 PINNED
+    32. 2 FIXED BUT FX FZ MX MY MZ
+    33. LOAD 1 LOADTYPE NONE  TITLE LIVE LOAD
+    34. MEMBER LOAD
+    35. 1 UNI GY -10
+    36. PERFORM ANALYSIS
+     STAAD SPACE                                              -- PAGE NO.    2
+        
+
+
+
+            P R O B L E M   S T A T I S T I C S
+            -----------------------------------
+
+     NUMBER OF JOINTS          2  NUMBER OF MEMBERS       1
+     NUMBER OF PLATES          0  NUMBER OF SOLIDS        0
+     NUMBER OF SURFACES        0  NUMBER OF SUPPORTS      2
+
+           Using 64-bit analysis engine.
+ 
+           SOLVER USED IS THE IN-CORE ADVANCED MATH SOLVER
+ 
+   TOTAL      PRIMARY LOAD CASES =     1, TOTAL DEGREES OF FREEDOM =       8
+   TOTAL LOAD COMBINATION  CASES =     0  SO FAR.
+
+
+ ***WARNING -  INSTABILITY AT JOINT     2   DIRECTION = FZ 
+  PROBABLE CAUSE SINGULAR-ADDING WEAK SPRING 
+  K-MATRIX DIAG=  5.1926301E+00 L-MATRIX DIAG=  4.7501509E-11 EQN NO       5
+  ***NOTE - VERY WEAK SPRING ADDED FOR STABILITY
+
+    **NOTE** STAAD DETECTS INSTABILITIES AS EXCESSIVE LOSS OF SIGNIFICANT DIGITS
+             DURING DECOMPOSITION. WHEN SIGNIFICANT DIGITS LOST IS GREATER THAN 9 
+             STAAD PRINTS A SINGULARITY NOTICE. 
+
+             THE ABOVE CONDITIONS COULD ALSO BE CAUSED BY VERY STIFF OR VERY WEAK 
+             ELEMENTS AS WELL AS TRUE SINGULARITIES.
+
+
+ ***WARNING -  INSTABILITY AT JOINT     2   DIRECTION = MX 
+  PROBABLE CAUSE SINGULAR-ADDING WEAK SPRING 
+  K-MATRIX DIAG=  1.3851157E+04 L-MATRIX DIAG=  4.7501509E-11 EQN NO       6
+  ***NOTE - VERY WEAK SPRING ADDED FOR STABILITY
+
+
+    37. PRINT ANALYSIS RESULTS
+ ANALYSIS RESULTS                   
+     STAAD SPACE                                              -- PAGE NO.    3
+        
+
+
+
+   JOINT DISPLACEMENT (CM   RADIANS)    STRUCTURE TYPE = SPACE
+   ------------------
+
+ JOINT  LOAD   X-TRANS   Y-TRANS   Z-TRANS   X-ROTAN   Y-ROTAN   Z-ROTAN
+
+
+      1    1     0.0000    0.0000    0.0000    0.0000    0.0000   -0.0041
+      2    1     0.0000    0.0000    0.0000    0.0000    0.0000    0.0041
+     STAAD SPACE                                              -- PAGE NO.    4
+        
+
+
+
+   SUPPORT REACTIONS -UNIT KN   METE    STRUCTURE TYPE = SPACE
+   -----------------
+
+ JOINT  LOAD   FORCE-X   FORCE-Y   FORCE-Z     MOM-X     MOM-Y     MOM Z
+
+
+      1    1      0.00     25.00      0.00      0.00      0.00      0.00
+      2    1      0.00     25.00      0.00      0.00      0.00      0.00
+     STAAD SPACE                                              -- PAGE NO.    5
+        
+
+
+
+   MEMBER END FORCES    STRUCTURE TYPE = SPACE
+   -----------------
+   ALL UNITS ARE -- KN   METE     (LOCAL )
+
+  MEMBER  LOAD  JT     AXIAL   SHEAR-Y  SHEAR-Z   TORSION     MOM-Y      MOM-Z
+
+
+
+      1    1     1      0.00     25.00     0.00      0.00      0.00       0.00
+                 2      0.00     25.00     0.00      0.00      0.00       0.00
+
+
+   ************** END OF LATEST ANALYSIS RESULT **************
+
+
+    38. FINISH
+
+
+             *********** END OF THE STAAD.Pro RUN ***********         
+
+               **** DATE= MAR  7,2021   TIME= 16:48:48 ****
+
+     STAAD SPACE                                              -- PAGE NO.    6
+        
+         ************************************************************
+         *   For technical assistance on STAAD.Pro, please visit    *
+         *   http://www.bentley.com/en/support/                     *
+         *                                                          *
+         *   Details about additional assistance from               *
+         *   Bentley and Partners can be found at program menu      *
+         *   Help->Technical Support                                *
+         *                                                          *
+         *      Copyright (c) 1997-2017 Bentley Systems, Inc.       *
+         *                http://www.bentley.com                    *
+         ************************************************************
+                                                                     
